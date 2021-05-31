@@ -212,6 +212,147 @@ background:linear-gradient(rgb(0, 0, 0), #ff4fe8);
 .area3{
     display: block;
     width:100%;
-    height: 150vh;
+    height: 5000px;
     background-color: #ff4fe8;  
+}
+/* .position_test{
+    font-size:30px;
+    font-weight: 600;
+    position:fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    z-index: 20;
+} */
+.msCommon{
+    font-size:30px;
+    font-weight: 600;
+    position:fixed;
+    top: 40%;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    z-index: 20;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+}
+.ms0{
+    opacity: 0;
+}
+.ms1{
+    opacity: 1;
+}
+
+/*イラスト*/
+.pop_left{
+    position:fixed;
+    top: 55%;
+    left: 55px;
+    width:60px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.5s;
+}
+.pop_right{
+    position:fixed;
+    top: 55%;
+    right: 55px;
+    width:60px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.5s;
+    transform: scale(-1, 1);
+}
+.aodai{
+    position:fixed;
+    top: 21%;
+    right: 38px;
+    width:60px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.5s;
+}
+.me{
+    position:fixed;
+    top: 63%;
+    left: 38px;
+    width: 70px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.8s;
+}
+.flower{
+    position:fixed;
+    top: 17%;
+    right: 0px;
+    width: 135px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.5s;
+    transform: scale(-1, 1);
+}
+.phone_left{
+    position:fixed;
+    top: 28%;
+    left: 30px;
+    width: 90px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.3s;
+}
+.phone_right{
+    position:fixed;
+    top: 65%;
+    right: 30px;
+    width: 100px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.3s;
+    transform: scale(-1, 1);
+}
+.fa-circle{
+    position:fixed;
+    -webkit-transition: all 0.4s ease;/*アニメーションの変化*/
+    transition: all 0.4s ease;
+    color: pink;
+}
+.dot1{
+    top: 34%;
+    left: 106px;
+    transition-delay: 0.6s;
+}
+.dot2{
+    top: 39%;
+    left: 128px;
+    transition-delay: 0.55s;
+}
+.dot3{
+    top: 44%;
+    left: 150px;
+    transition-delay: 0.5s;
+}
+.dot4{
+    top: 49%;
+    left: 172px;
+    transition-delay: 0.45s;
+}
+.dot5{
+    top: 54%;
+    left: 194px;
+    transition-delay: 0.4s;
+}
+.dot6{
+    top: 59%;
+    left: 216px;
+    transition-delay: 0.35s;
+}
+.dot7{
+    top: 64%;
+    left: 238px;
+    transition-delay: 0.3s;
 }
