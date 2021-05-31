@@ -1,6 +1,6 @@
 $(function () {
   $(window).scroll(function () {
-      // $('#interval').text('スクロール値：' + $(this).scrollTop());
+      $('#interval').text('スクロール値：' + $(this).scrollTop());
       var top = $(this).scrollTop();
       if (top >= 0 && top < 55) {
           $("img#hg").removeClass().addClass('hg0');
@@ -45,54 +45,61 @@ $(function () {
       if (top >= 275) {
         $("img#macbook").removeClass().addClass('mc4');
       }
+      //for ms
+      // if (top < 700 || top > 1000){
+      //   $(".ms_1").removeClass('ms1').addClass('ms0');
+      // }
+      // if (top >= 700 && top <= 1000){
+      //   $(".ms_1").removeClass('ms0').addClass('ms1');
+      // }
+      if (top < 1300 || top > 1600){
+        $(".ms_1").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 1300 && top <= 1600){
+        $(".ms_1").removeClass('ms0').addClass('ms1');
+      }
+      if (top < 1900 || top > 2200){
+        $(".ms_2").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 1900 && top <= 2200){
+        $(".ms_2").removeClass('ms0').addClass('ms1');
+      }
+      if (top < 2500 || top > 2800){
+        $(".ms_3").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 2500 && top <= 2800){
+        $(".ms_3").removeClass('ms0').addClass('ms1');
+      }
+      if (top < 3100 || top > 3400){
+        $(".ms_4").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 3100 && top <= 3400){
+        $(".ms_4").removeClass('ms0').addClass('ms1');
+      }
+      if (top < 3700 || top > 4000){
+        $(".ms_5").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 3700 && top <= 4000){
+        $(".ms_5").removeClass('ms0').addClass('ms1');
+      }
+      if (top < 4300 || top > 4600){
+        $(".ms_6").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 4300 && top <= 4600){
+        $(".ms_6").removeClass('ms0').addClass('ms1');
+      }
+      if (top < 4900 || top > 5200){
+        $(".ms_7").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 4900 && top <= 5200){
+        $(".ms_7").removeClass('ms0').addClass('ms1');
+      }
+      if (top < 5500 || top > 5800){
+        $(".ms_8").removeClass('ms1').addClass('ms0');
+      }
+      if (top >= 5500 && top <= 5800){
+        $(".ms_8").removeClass('ms0').addClass('ms1');
+      }
+
   });
 });
-
-
-
-
-// $(window).scroll(function() {
-//     tpx = $(this).scrollTop();
-//     $("#pixcel").text(tpx);
-//     // $("img.hg").css({
-//     //     'opacity':funcCSS
-//     // });
-
-//     // function funcCSS(tpx){
-//     //     return 0.5 - tpx/100;
-//     // }
-//   });
-
-  // $(function () {
-  //   $('div.line').each(function () {
-  //     var $win = $(window),
-  //         $winH = $win.height(),
-  //         $connect = $(this),
-  //         position = $connect.offset().top,
-  //         current = 0,
-  //         scroll;
-  //     $win.on('load scroll', function () {
-  //       scroll = $win.scrollTop();
-  //       current = (1 - (position - scroll) / $winH) * 2 * 100;
-  //       if (current > 99.9) {
-  //         current = 100;
-  //       }
-  //       if (scroll > position - $winH) {
-  //         $connect.css({width: current + '%'});
-  //       }
-  //     });
-  //   });
-  // });
-// $(function(){
-//   var $win = $(window),
-//       $winH = $win.height(),
-//       $connect = $('img.hg'),
-//       position = $connect.offset().top,
-//       current = 0,
-//       scroll;
-//   $win.on('load scroll', function(){
-//     scroll = $win.scrollTop();
-
-//   })
-// })
-
