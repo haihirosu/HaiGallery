@@ -230,6 +230,7 @@ background:linear-gradient(rgb(0, 0, 0), #ff4fe8);
 .msCommon{
     font-size:27px;
     font-weight: 600;
+    line-height: 42px;
     position:fixed;
     top: 40%;
     /* bottom: 0; */
@@ -247,6 +248,10 @@ background:linear-gradient(rgb(0, 0, 0), #ff4fe8);
 }
 .ms1{
     opacity: 1;
+}
+#ms_9{
+    top:50%;
+    transition-delay: 0.8s;
 }
 
 /*イラスト*/
@@ -356,4 +361,23 @@ background:linear-gradient(rgb(0, 0, 0), #ff4fe8);
     top: 64%;
     left: 238px;
     transition-delay: 0.3s;
+}
+.talk_left{
+    position:fixed;
+    top: 33%;
+    left: 50px;
+    width: 40px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.5s;
+    transform: scale(-1, 1);
+}
+.talk_right{
+    position:fixed;
+    top: 33%;
+    right: 50px;
+    width: 40px;
+    -webkit-transition: all 0.5s ease;/*アニメーションの変化*/
+    transition: all 0.5s ease;
+    transition-delay: 0.5s;
 }
