@@ -94,10 +94,10 @@ $(function () {
       if (top >= 4900 && top <= 5200){
         $(".ms_7").removeClass('ms0').addClass('ms1');
       }
-      if (top < 5500 || top > 5800){
+      if (top < 5500){
         $(".ms_8").removeClass('ms1').addClass('ms0');
       }
-      if (top >= 5500 && top <= 5800){
+      if (top >= 5500){
         $(".ms_8").removeClass('ms0').addClass('ms1');
       }
 
